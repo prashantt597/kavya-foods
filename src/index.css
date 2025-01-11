@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans bg-gray-50;
+}
+
+.slide-content {
+  @apply relative h-[600px] bg-cover bg-center;
+}
+
+.menu-item {
+  @apply transform transition-transform hover:scale-105;
+}
